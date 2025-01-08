@@ -1,0 +1,6 @@
+"npm run start:dev" comando para o servidor atualizar automaticamente.
+# Generate the schema
+npx prisma generate
+# Run the database migrations
+npx prisma migrate dev --name init
+npm run lint -- --fix corrigisse os erros de lint
